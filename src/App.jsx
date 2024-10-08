@@ -8,7 +8,7 @@ function App() {
   return (
     <LangProvider>
             <ThemeProvider>
-                <div className="App">
+                <div className="App font-inter text-inherit	">
                   <Header/>
                 </div>
             </ThemeProvider>
