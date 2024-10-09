@@ -13,7 +13,7 @@ function App() {
   return (
     <LangProvider>
             <ThemeProvider>
-                <div className="App font-inter text-inherit	">
+                <div className="App font-inter text-inherit mx-40">
                   <Header/>
                   <Hero/>
                   <Skills/>
