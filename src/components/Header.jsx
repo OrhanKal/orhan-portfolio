@@ -18,7 +18,7 @@ const Header = () => {
                         onChange={toggleTheme} 
                     />
                     <div className="w-11 h-5 bg-gray-300 rounded-full peer-checked:bg-indigo-800 peer-focus:ring-4 peer-focus:ring-blue-300 transition-all duration-300"></div>
-                    <div className="absolute left-1 w-4 h-4 bg-amber-200 rounded-full peer-checked:translate-x-5 transition-transform duration-300"></div>
+                    <div className="absolute left-1 w-4 h-4 bg-amber-200 rounded-full peer-checked:translate-x-5 peer-checked:rounded- transition-transform duration-300"></div>
                     <p className='ml-1'>Dark Mode</p> 
                 </label>
                 <p>|</p>
