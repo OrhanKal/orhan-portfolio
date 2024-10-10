@@ -35,7 +35,7 @@ const Header = () => {
                 <h1 className="text-2xl text-violet-600 font-bold">O</h1>
             </div>
 
-            <div className="flex items-center gap-4">
+            <div className="flex items-center gap-10">
                 <a href="#skills" className="hover:text-indigo-800">Skills</a>
                 <a href="#projects" className="hover:text-indigo-800">Projects</a>
                 <a href="#hireme" className="border-2 text-indigo-800 px-4 py-2 rounded border-indigo-800 hover:bg-indigo-800 hover:text-white">Hire me</a>

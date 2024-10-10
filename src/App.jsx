@@ -13,14 +13,14 @@ function App() {
   return (
     <LangProvider>
             <ThemeProvider>
-                <div className="App font-inter text-inherit mx-40">
+                <div className="App font-inter text-inherit m-auto mx-72 min-w-96">
                   <Header/>
                   <Hero/>
                   <Skills/>
                   <Profile/>
                   <Projects/>
-                  <Footer/>
                 </div>
+                <Footer />
             </ThemeProvider>
         </LangProvider>
   )

@@ -8,6 +8,7 @@ export default {
     extend: {
       colors: {
         "line-color": "#bab2e7",
+        "costom-grey": "#F9F9F9"
       },
       fontFamily: {
         satoshi: ['Satoshi', 'sans-serif'],
