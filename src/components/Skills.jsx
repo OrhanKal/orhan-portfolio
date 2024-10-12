@@ -9,15 +9,15 @@ function Skills() {
     <div className="flex gap-2">
     <div>
     <h1 className="text-3xl  text-indigo-800">Java Script</h1>
-    <p className="text-xs">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <p className="text-xs text-gray-400">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </div>
     <div>
     <h1 className="text-3xl  text-indigo-800">React.Js</h1>
-    <p className="text-xs">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <p className="text-xs text-gray-400">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </div>
     <div>
     <h1 className="text-3xl  text-indigo-800">Node.Js</h1>
-    <p className="text-xs">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <p className="text-xs text-gray-400">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </div>
     </div>
     </div>

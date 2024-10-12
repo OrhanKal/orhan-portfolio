@@ -1,7 +1,7 @@
 function Profile() {
   return (
     <div className="w-full py-10 border-b border-line-color mb-10">
-      <div className="text-5xl leading-none font-semibold mb-10">Profile</div>
+      <div className="text-5xl leading-none font-semibold mb-10vvvvvvvvvvvvvvvvvv">Profile</div>
       <div className="flex justify-between">
        
         <div className="w-1/2">

@@ -11,7 +11,7 @@ function Footer() {
       👉<span className="text-red-500">kalsinorhan@gmail.com</span>
       </div>
       <div className="flex gap-5">
-      <button>Personal Blog</button><button>Github</button><button>Linkedin</button>
+      <button>Personal Blog</button><button className="text-emerald-600">Github</button><button className="text-blue-400">Linkedin</button>
       </div>
     </div>
     </div>
