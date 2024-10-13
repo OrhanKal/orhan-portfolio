@@ -1,8 +1,8 @@
 
 function Footer() {
   return (
-    <footer className="bg-costom-grey font-semibold py-10 ">
-      <div className="mx-72">
+    <footer className="bg-costom-grey font-semibold py-10 px-32">
+      <div className="">
     <div className="text-lg w-1/2">
       Let’s work together on your next product.
     </div>

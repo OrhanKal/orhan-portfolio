@@ -12,14 +12,14 @@ function App() {
   return (
     <LangProvider>
       <ThemeProvider>
-        <div className="App bg-white dark:bg-gray-900 text-black dark:text-white">  {/* Dark mode arka plan ve yazı renkleri */}
+        <div className="App py-6 px-32 bg-white dark:bg-gray-900 text-black dark:text-white">  {/* Dark mode arka plan ve yazı renkleri */}
           <Header />
           <Hero />
           <Skills />
           <Profile />
           <Projects />
-          <Footer />
         </div>
+        <Footer />
       </ThemeProvider>
     </LangProvider>
   );

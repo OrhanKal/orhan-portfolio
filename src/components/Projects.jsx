@@ -32,7 +32,16 @@ function Projects() {
           <h1 className="text-3xl text-indigo-800 dark:text-indigo-300 mb-4">{currentText.workintech}</h1> {/* Dark mode text-indigo-300 */}
           <p className="text-sm text-gray-400 dark:text-gray-300">A project description...</p> {/* Dark mode text-gray-300 */}
         </div>
-        {/* Diğer projeler de aynı şekilde */}
+        <div className="w-1/2">
+          <img src="https://placehold.co/300x180" alt="Workintech" />
+          <h1 className="text-3xl text-indigo-800 dark:text-indigo-300 mb-4">{currentText.workintech}</h1> {/* Dark mode text-indigo-300 */}
+          <p className="text-sm text-gray-400 dark:text-gray-300">A project description...</p> {/* Dark mode text-gray-300 */}
+        </div>
+        <div className="w-1/2">
+          <img src="https://placehold.co/300x180" alt="Workintech" />
+          <h1 className="text-3xl text-indigo-800 dark:text-indigo-300 mb-4">{currentText.workintech}</h1> {/* Dark mode text-indigo-300 */}
+          <p className="text-sm text-gray-400 dark:text-gray-300">A project description...</p> {/* Dark mode text-gray-300 */}
+        </div>
       </div>
     </div>
   );
