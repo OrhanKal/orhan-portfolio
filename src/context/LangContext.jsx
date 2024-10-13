@@ -1,19 +1,17 @@
 import { createContext, useState } from 'react';
 
-const LangContext = createContext();
+export const LangContext = createContext();
 
-const LangProvider = ({ children }) => {
-  const [lang, setLang] = useState('en');
+export const LangProvider = ({ children }) => {
+  const [lang, setLang] = useState('en'); // Varsayılan dil İngilizce
 
   const toggleLang = () => {
-    setLang((prevLang) => (prevLang === 'en' ? 'tr' : 'en'));
+    setLang(lang === 'en' ? 'tr' : 'en');
   };
 
   return (
-    <LangContext.Provider value={{ lang, toggleLang }}>
+    <LangContext.Provider value={{ lang, setLang }}>
       {children}
     </LangContext.Provider>
   );
 };
-
-export { LangContext, LangProvider };
