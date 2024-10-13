@@ -2,7 +2,7 @@
 function Hero() {
   return (
     <div className="my-10 mb-20">
-    <img src="https://media.licdn.com/dms/image/D4D03AQH9V3rRkGSIiA/profile-displayphoto-shrink_200_200/0/1687114916636?e=2147483647&v=beta&t=2rnle68ci6iV-4TewFypHy49uUsRKFrxJdi0OswX_d0" className="rounded-md float-right "/>
+    <img src="https://media.licdn.com/dms/image/D4D03AQH9V3rRkGSIiA/profile-displayphoto-shrink_200_200/0/1687114916636?e=2147483647&v=beta&t=2rnle68ci6iV-4TewFypHy49uUsRKFrxJdi0OswX_d0" className="rounded-md float-right shadow-lg"/>
         <div>
             <p className="flex items-center text-indigo-800 mb-10"><span className="block w-10 h-px bg-indigo-800 align-middle mr-1 "></span> Orhan Kalsın</p>
       <h1 className=" text-7xl leading-none font-bold mb-10">Creative thinker Minimalism lover</h1>
